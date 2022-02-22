@@ -1,0 +1,169 @@
+
+/*==================Global section========================*/
+*{
+    margin: 0;
+}
+
+body{
+   
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 3.8rem;
+    color: #11999E;
+}
+
+h2{
+    color: #30E3CA;
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    color: #30E3CA;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+
+    line-height: 2;
+    padding: 30px 0 30px 0;
+}
+
+hr{
+    border: 10px dotted #40514E;
+    border-bottom: none;
+    width: 6%;
+    margin: 0 auto;
+    opacity: 15%;
+
+}
+
+
+/*==================Top section========================*/
+.top-container{
+    padding-top: 100px;
+    background-color: #e4f9f5;
+    position: relative;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 350px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+
+
+/*==================Middle section*========================*/
+/*==================Profile section*========================*/
+.middle-section{
+    margin: 60px 0;
+}
+
+.profile-img{
+    padding: 50px 0 50px 0;
+    border-radius: 50%;
+}
+
+.hello-para{
+    width: 30%;
+    margin: 0 auto;    
+
+}
+
+/*==================Skill section*========================*/
+
+.skills h2{
+    margin: 35px auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.skill-row img{
+    width: 30%;
+    height: 30%;
+}
+
+.computer-img{
+    float: left;
+    margin-right: 40px;
+}
+
+.chilly-img{
+    float: right;
+    margin-left: 40px;
+}
+
+/*==================Middle section*========================*//*==================Bottom section*========================*/
+.get-in-touch h2{
+    margin: 60px auto;
+}
+
+.get-in-touch h3{
+    margin: 20px auto;
+}
+
+.get-in-touch p{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.btn{
+
+    text-decoration: none;
+    background: #30E3CA;
+    background-image: linear-gradient(to bottom, #30e3ca, #1ed0c1, #10beb7, #0cabab, #11999e);
+    padding: 10px 20px;
+    border-radius: 10%;
+    color: white;
+
+}
+
+.get-in-touch a:hover{
+    background-image: linear-gradient(to left bottom, #8dc91b, #aad045, #c2d866, #d7e086, #e8e8a6);
+}
+
+/*==================Footer section*========================*/
+
+.footer{
+    
+    background: #0cabab;
+    padding: 60px 50px;
+    text-decoration: none;
+    color: #30e3ca;
+}
+
+.footer a{
+
+    text-decoration: none;
+    color: white;
+    margin: 10px 20px;
+    
+
+}
+
+.footer a:hover{
+    
+        color: #19bbbb;
+    
+}
